@@ -73,7 +73,7 @@ export function About() {
           viewport={{ once: true }}
         >
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            At Bark n Groom, we're committed to providing top-notch grooming services that keep your pets healthy, happy, and looking their best. Our mobile grooming service brings the salon experience right to your doorstep, minimizing stress for your furry friends.
+            At Bark n Groom, we&apos;re committed to providing top-notch grooming services that keep your pets healthy, happy, and looking their best. Our mobile grooming service brings the salon experience right to your doorstep, minimizing stress for your furry friends.
           </p>
         </motion.div>
       </div>
