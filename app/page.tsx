@@ -1,6 +1,6 @@
 import { Navbar } from "@/app/components/navbar"
 import { Hero } from "@/app/components/hero"
-import { Services } from "@/app/components/services"
+// import { Services } from "@/app/components/services"
 import { Gallery } from "@/app/components/gallery"
 import { About } from "@/app/components/about"
 import { Testimonials } from "@/app/components/testimonials"

@@ -37,59 +37,60 @@ export function Testimonials() {
   }
 
   return (
-    <section className="py-20 bg-gradient-to-b bg-blue-500">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-black">
-        <motion.div 
-          className="text-center"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-        >
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-2">What Our Customers Say</h2>
-          <p className="text-xl text-slate-100">Don't just take our word for it - hear from our happy clients</p>
-        </motion.div>
-        <div className="mt-12">
-          <Card className="bg-white shadow-lg">
-            <CardContent className="p-8">
-              <AnimatePresence mode='wait'>
-                <motion.div
-                  key={currentIndex}
-                  initial={{ opacity: 0, x: 20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  exit={{ opacity: 0, x: -20 }}
-                  transition={{ duration: 0.3 }}
-                  className="flex flex-col items-center"
-                >
-                  <Quote className="h-12 w-12 text-primary mb-6" />
-                  <p className="text-xl text-gray-700 italic text-center mb-6">"{testimonials[currentIndex].quote}"</p>
-                  <div className="flex items-center">
-                    <Image
-                      src={testimonials[currentIndex].image}
-                      alt={testimonials[currentIndex].name}
-                      width={60}
-                      height={60}
-                      className="rounded-full mr-4"
-                    />
-                    <h3 className="text-lg font-semibold text-gray-900">{testimonials[currentIndex].name}</h3>
-                  </div>
-                </motion.div>
-              </AnimatePresence>
-            </CardContent>
-          </Card>
-          <div className="flex justify-center mt-8 gap-4">
-            <Button  onClick={prevTestimonial}>
-              <ChevronLeft className="h-4 w-4" />
-              <span className="sr-only">Previous testimonial</span>
-            </Button>
-            <Button  onClick={nextTestimonial}>
-              <ChevronRight className="h-4 w-4" />
-              <span className="sr-only">Next testimonial</span>
-            </Button>
-          </div>
-        </div>
+<section className="py-20 bg-gradient-to-b bg-blue-500">
+  <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-black">
+    <motion.div 
+      className="text-center"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true }}
+    >
+      <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-2">What Our Customers Say</h2>
+      <p className="text-xl text-slate-100">Don&apos;t just take our word for it - hear from our happy clients</p>
+    </motion.div>
+    <div className="mt-12">
+      <Card className="bg-white shadow-lg">
+        <CardContent className="p-8">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={currentIndex}
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -20 }}
+              transition={{ duration: 0.3 }}
+              className="flex flex-col items-center"
+            >
+              <Quote className="h-12 w-12 text-primary mb-6" />
+              <p className="text-xl text-gray-700 italic text-center mb-6">&quot;{testimonials[currentIndex].quote}&quot;</p>
+              <div className="flex items-center">
+                <Image
+                  src={testimonials[currentIndex].image}
+                  alt={testimonials[currentIndex].name}
+                  width={60}
+                  height={60}
+                  className="rounded-full mr-4"
+                />
+                <h3 className="text-lg font-semibold text-gray-900">{testimonials[currentIndex].name}</h3>
+              </div>
+            </motion.div>
+          </AnimatePresence>
+        </CardContent>
+      </Card>
+      <div className="flex justify-center mt-8 gap-4">
+        <Button onClick={prevTestimonial}>
+          <ChevronLeft className="h-4 w-4" />
+          <span className="sr-only">Previous testimonial</span>
+        </Button>
+        <Button onClick={nextTestimonial}>
+          <ChevronRight className="h-4 w-4" />
+          <span className="sr-only">Next testimonial</span>
+        </Button>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
   )
 }
 

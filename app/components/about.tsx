@@ -40,8 +40,9 @@ export function About() {
         >
           <h2 className="text-4xl font-extrabold text-gray-900 sm:text-5xl">About Bark n Groom</h2>
           <p className="mt-4 max-w-2xl mx-auto text-xl text-gray-600">
-            Founded by Zube Mallick, we bring professional pet grooming services to your doorstep in Bangalore.
-          </p>
+  Founded by Zube Mallick, we bring professional pet grooming services to your doorstep in Bangalore.
+</p>
+
         </motion.div>
         <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {features.map((feature, index) => (
