@@ -55,7 +55,7 @@ export function Navbar() {
                 key={item.name}
                 href={item.href}
                 className={`relative px-1 py-2 rounded-md text-sm font-medium transition-colors duration-200 ease-in-out
-                  ${pathname === item.href ? "text-primary" : "text-black hover:text-gray-900"}
+                  ${pathname === item.href ? "text-primary" : "text hover:text-gray-900"}
                 `}
               >
                 {item.name}
