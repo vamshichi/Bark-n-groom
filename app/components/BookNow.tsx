@@ -27,7 +27,7 @@ export function BookNow() {
   }
 
   return (
-    <section id="book-now" className="py-12 bg-gray-100">
+    <section id="book-now" className="   bg-gray-100 py-40">
       <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
         <h2 className="text-2xl font-bold text-gray-800 mb-6">Book Now</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -43,7 +43,7 @@ export function BookNow() {
               value={formData.petName}
               onChange={handleChange}
               required
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              className="mt-1 block w-full bg-slate-200 rounded-md border-black-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 py-3 "
             />
           </div>
 
@@ -58,7 +58,7 @@ export function BookNow() {
               value={formData.petBreed}
               onChange={handleChange}
               required
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              className="mt-1 block w-full bg-slate-200 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500  py-3"
             />
           </div>
 
@@ -72,7 +72,7 @@ export function BookNow() {
               value={formData.sex}
               onChange={handleChange}
               required
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              className="mt-1 block w-full bg-slate-200 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500  py-3"
             >
               <option value="">Select</option>
               <option value="Male">Male</option>
@@ -91,7 +91,7 @@ export function BookNow() {
               value={formData.age}
               onChange={handleChange}
               required
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              className="mt-1 block w-full bg-slate-200 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500  py-3"
             />
           </div>
 
@@ -105,7 +105,7 @@ export function BookNow() {
               value={formData.bloodGroup}
               onChange={handleChange}
               required
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              className="mt-1 block w-full bg-slate-200 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500  py-3"
             >
               <option value="">Select</option>
               <option value="A">A</option>
@@ -127,7 +127,7 @@ export function BookNow() {
               value={formData.petParentName}
               onChange={handleChange}
               required
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              className="mt-1 block w-full bg-slate-200 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500  py-3"
             />
           </div>
 
@@ -142,7 +142,7 @@ export function BookNow() {
               onChange={handleChange}
               required
               rows={3}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              className="mt-1 block w-full bg-slate-200 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500  py-3"
             ></textarea>
           </div>
 
@@ -157,7 +157,7 @@ export function BookNow() {
               value={formData.pincode}
               onChange={handleChange}
               required
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              className="mt-1 block w-full bg-slate-200 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500  py-3"
             />
           </div>
 
@@ -172,7 +172,7 @@ export function BookNow() {
               value={formData.comment}
               onChange={handleChange}
               rows={4}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500"
+              className="mt-1 block w-full bg-slate-200 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500  py-3"
             ></textarea>
           </div>
 
@@ -180,7 +180,7 @@ export function BookNow() {
           <div className="text-right">
             <button
               type="submit"
-              className="px-6 py-2 text-white bg-indigo-600 rounded-md shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="px-6  text-white bg-indigo-600 rounded-md shadow hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500  py-3"
             >
               Book Now
             </button>

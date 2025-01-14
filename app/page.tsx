@@ -1,4 +1,4 @@
-import {Navbar}  from "@/app/components/navbar"
+// import {Navbar}  from "@/app/components/navbar"
 import { Hero } from "@/app/components/hero"
 // import { Services } from "@/app/components/services"
 import { Gallery } from "@/app/components/gallery"
@@ -11,7 +11,7 @@ import { ServicePackages } from "./components/service-packages"
 export default function Home() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <main>
         <Hero />
         <About />
