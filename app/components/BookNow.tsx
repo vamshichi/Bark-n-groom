@@ -118,7 +118,7 @@ export function BookNow() {
           {/* Pet Parent Details */}
           <div>
             <label htmlFor="petParentName" className="block text-sm font-medium text-gray-700">
-              Pet Parent's Name
+              Pet Parent&apos;s Name
             </label>
             <input
               type="text"
