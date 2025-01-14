@@ -9,6 +9,7 @@ const navigation = {
     { name: 'Gallery', href: '/#gallery' },
     { name: 'About', href: '/#about' },
     { name: 'Contact', href: '/#contact' },
+    {name: 'Book Now', href: '/booknow'}
   ],
   social: [
     { name: 'Facebook', href: '#', icon: Facebook },
@@ -24,11 +25,11 @@ export function Footer() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
-            <Image
+            {/* <Image
               className="h-10"
               src="/logo.png"
               alt="Bark n Groom"
-            />
+            /> */}
             <p className="text-gray-400 text-base">
               Professional pet grooming services at your doorstep in Bangalore.
             </p>
@@ -59,12 +60,12 @@ export function Footer() {
                 <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Contact</h3>
                 <ul role="list" className="mt-4 space-y-4">
                   <li className="text-base text-gray-300">
-                    <p>123 Pet Street</p>
-                    <p>Bangalore, 560001</p>
+                    {/* <p>123 Pet Street</p> */}
+                    <p>Bangalore</p>
                   </li>
                   <li className="text-base text-gray-300">
-                    <p>Phone: +91 98765 43210</p>
-                    <p>Email: info@barkngroom.com</p>
+                    <p>Phone:+91 70198 55494</p>
+                    <p>Email:info@groomcity.com</p>
                   </li>
                 </ul>
               </div>
@@ -73,7 +74,7 @@ export function Footer() {
         </div>
         <div className="mt-12 border-t border-gray-700 pt-8">
           <p className="text-base text-gray-400 xl:text-center">
-            &copy; 2023 Bark n Groom. All rights reserved.
+            &copy; 2023 groom city. All rights reserved.
           </p>
         </div>
       </div>
