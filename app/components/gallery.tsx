@@ -7,8 +7,8 @@ import { X } from 'lucide-react'
 import { Button } from "@/app/components/ui/button"
 import ga1 from "@/app/images/galleary/Ga1.jpg"
 import ga2 from '@/app/images/galleary/ga2.jpg'
-import ga3 from '@/app/images/galleary/ga2.jpg'
-import ga4 from '@/app/images/galleary/ga2.jpg'
+import ga3 from '@/app/images/galleary/ga3.jpg'
+import ga4 from '@/app/images/galleary/ga4.jpg'
 
 const images = [
   { src: ga1, alt: "Cat relaxing during grooming" },
