@@ -38,7 +38,7 @@ export function About() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl font-extrabold sm:text-5xl">About Bark n Groom</h2>
+          <h2 className="text-4xl font-extrabold sm:text-5xl">About Groom City</h2>
           <p className="mt-4 max-w-2xl mx-auto text-xl">
             Founded by Zube Mallick, we bring professional pet grooming services to your doorstep in Bangalore.
           </p>
@@ -72,7 +72,7 @@ export function About() {
           viewport={{ once: true }}
         >
           <p className="text-xl max-w-3xl mx-auto">
-            At Bark n Groom, we&apos;re committed to providing top-notch grooming services that keep your pets healthy, happy, and looking their best. Our mobile grooming service brings the salon experience right to your doorstep, minimizing stress for your furry friends.
+            At Groom City, we&apos;re committed to providing top-notch grooming services that keep your pets healthy, happy, and looking their best. Our mobile grooming service brings the salon experience right to your doorstep, minimizing stress for your furry friends.
           </p>
         </motion.div>
       </div>
