@@ -86,7 +86,7 @@ export function Hero() {
             className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4"
           >
             <Button size="lg" className="text-lg px-8 py-3">
-              <Link href="/#contact">Book Now</Link>
+              <Link href="/booknow">Book Now</Link>
             </Button>
             <Button size="lg" className="text-lg px-8 py-3 bg-white/10 hover:bg-white/20 text-white border-white">
               <Link href="/#services">Our Services</Link>
