@@ -72,7 +72,7 @@ const services = [
 
 export function ServicePackages() {
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-purple-900 via-indigo-800 to-purple-700 text-white" id="services">
+    <section className="py-16 px-4 bg-gradient-to-b from-blue-900 via-blue-700 to-blue-500 text-white" id="services">
       <div className="container mx-auto max-w-6xl">
         <motion.h2 
           className="text-4xl font-bold text-center mb-4 text-gold"
@@ -101,7 +101,7 @@ export function ServicePackages() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Card className="h-full flex flex-col bg-gradient-to-br from-purple-800 to-purple-900 shadow-lg border border-gold">
+              <Card className="h-full flex flex-col  bg-blue-800 shadow-lg border border-gold">
                 <CardHeader>
                   <div className="flex items-center justify-between mb-4">
                     <CardTitle className="text-xl font-bold text-gold">{service.title}</CardTitle>

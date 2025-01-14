@@ -17,14 +17,14 @@ export function Contact() {
                 <dt className="sr-only">Phone number</dt>
                 <dd className="flex items-center">
                   <Phone className="h-6 w-6 text-blue-600 mr-2" />
-                  <span className="text-gray-900">+91 1234567890</span>
+                  <span className="text-gray-900">+91 7019855494</span>
                 </dd>
               </div>
               <div className="flex">
                 <dt className="sr-only">Email</dt>
                 <dd className="flex items-center">
                   <Mail className="h-6 w-6 text-blue-600 mr-2" />
-                  <span className="text-gray-900">contact@barkngroom.com</span>
+                  <span className="text-gray-900">info@groomcity.in</span>
                 </dd>
               </div>
               <div className="flex">
