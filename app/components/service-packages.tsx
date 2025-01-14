@@ -121,7 +121,7 @@ export function ServicePackages() {
                 </CardContent>
                 <div className="p-6 pt-0 mt-auto">
                   <Button className="w-full bg-gold text-black font-semibold">
-                    <Link href="/#contact">Book Now</Link>
+                    <Link href="/booknow">Book Now</Link>
                   </Button>
                 </div>
               </Card>
