@@ -31,7 +31,7 @@ export async function POST(req: NextRequest) {
 
     // Email content
     const mailOptions = {
-      from: "chvamshi03@gmail.com",
+      from: '"GroomCity" <chvamshi03@gmail.com>',
       to: "groomcity02@gmail.com",
       subject: "New Booking Received",
       text: `A new booking has been received:
