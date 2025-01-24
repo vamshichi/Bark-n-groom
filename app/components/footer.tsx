@@ -13,7 +13,7 @@ const navigation = {
   ],
   social: [
     { name: 'Facebook', href: '#', icon: Facebook },
-    { name: 'Instagram', href: '#', icon: Instagram },
+    { name: 'Instagram', href: 'https://www.instagram.com/groom_city_02?igsh=ZHNvYmcxZTF0b216', icon: Instagram },
     { name: 'Twitter', href: '#', icon: Twitter },
   ],
 }
