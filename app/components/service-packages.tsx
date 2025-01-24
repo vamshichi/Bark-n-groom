@@ -16,6 +16,7 @@ const services = [
       "Mouth freshener",
       "Nail clipping",
       "Nose cleaning",
+      "Ears cleaning",
       "D shedding",
       "Eyes cleaning",
       "Full body trimming",
@@ -48,7 +49,7 @@ const services = [
     icon: Wind,
     features: [
       "Nail clipping",
-      "Ear cleaning",
+      "Ears cleaning",
       "Nose cleaning",
       "Eyes cleaning",
       "Sanitary trimming",
