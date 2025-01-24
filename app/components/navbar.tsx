@@ -75,7 +75,7 @@ export function Navbar() {
             >
               <Link 
                 href="/booknow"
-                className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-black hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
+                className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-500 hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
               >
                 Book Now
               </Link>
@@ -130,8 +130,8 @@ export function Navbar() {
             <div className="pt-4 pb-3 border-t border-gray-200">
               <div className="px-2">
                 <Link
-                  href="/#contact"
-                  className="block w-full px-4 py-2 text-center font-medium text-white bg-primary rounded-md hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
+                  href="/booknow"
+                  className="block w-full px-4 py-2 text-center font-medium text-white bg-blue-600 rounded-md hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
                   onClick={() => setIsOpen(false)}
                 >
                   Book Now
