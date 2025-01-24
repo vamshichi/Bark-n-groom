@@ -114,13 +114,13 @@ const BookNowForm: React.FC = () => {
             required
           />
           <select
-            name="sex"
+            name="gender"
             value={formData.sex}
             onChange={handleChange}
             className="border p-2 rounded w-full"
             required
           >
-            <option value="">Select Sex</option>
+            <option value="">Select Gender</option>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
           </select>

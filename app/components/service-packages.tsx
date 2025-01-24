@@ -9,12 +9,13 @@ import Link from 'next/link'
 const services = [
   {
     title: "FULL SERVICE",
-    price: "2200",
+    price: "2199",
     icon: Scissors,
     features: [
       "2 times bath (normal and medicated)",
       "Mouth freshener",
       "Nail clipping",
+      "Nose cleaning",
       "D shedding",
       "Eyes cleaning",
       "Full body trimming",
@@ -26,13 +27,15 @@ const services = [
   },
   {
     title: "SPA BATH",
-    price: "1200",
+    price: "1199",
     icon: Bath,
     features: [
       "Bath",
       "Nail clipping",
       "D shedding",
       "Eyes cleaning",
+      "Nose cleaning",
+      "Ears cleaning",
       "Blow dry",
       "Sanitary trimming",
       "Paws trimming",
@@ -41,11 +44,12 @@ const services = [
   },
   {
     title: "TRIM AND TIDY",
-    price: "1500",
+    price: "1499",
     icon: Wind,
     features: [
       "Nail clipping",
       "Ear cleaning",
+      "Nose cleaning",
       "Eyes cleaning",
       "Sanitary trimming",
       "Paws trimming",
@@ -54,13 +58,15 @@ const services = [
   },
   {
     title: "NEAT AND TIDY",
-    price: "1700",
+    price: "1699",
     icon: Spray,
     features: [
       "Nail clipping",
       "Bath",
       "D shedding",
       "Eyes cleaning",
+      "Nose cleaning",
+      "Ears cleaning",
       "Blow dry",
       "Body styling",
       "Sanitary trimming",
