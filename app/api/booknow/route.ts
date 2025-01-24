@@ -7,7 +7,7 @@ export async function POST(req: NextRequest) {
     const {
       petName,
       petBreed,
-      sex,
+      gender,
       age,
       bloodGroup,
       petParentName,
@@ -37,7 +37,7 @@ export async function POST(req: NextRequest) {
       text: `A new booking has been received:
       - Pet Name: ${petName}
       - Breed: ${petBreed}
-      - Sex: ${sex}
+      - Sex: ${gender}
       - Age: ${age}
       - Blood Group: ${bloodGroup}
       - Parent Name: ${petParentName}
