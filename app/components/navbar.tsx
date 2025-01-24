@@ -2,11 +2,11 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-// import Image from "next/image"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { Menu, X } from 'lucide-react'
 import { motion, AnimatePresence } from "framer-motion"
-// import Logo from "@/public/images/gc.png"
+import Logo from "@/app/icon.jpeg"
 
 const navItems = [
   { name: "Home", href: "/" },
@@ -39,13 +39,13 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="flex items-center">
-              {/* <Image 
+              <Image 
                 src={Logo}
                 alt="Bark n Groom" 
                 width={32} 
                 height={32} 
                 className="w-auto h-8"
-              /> */}
+              />
 <span className="ml-2 text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-700 drop-shadow-lg">
   Groom City
 </span>
