@@ -65,8 +65,8 @@ export function Footer() {
                     <p>Bangalore</p>
                   </li>
                   <li className="text-base text-gray-300">
-                    <p>Phone:+91 70198 55494</p>
-                    <p>Email:info@groomcity.com</p>
+                    <p>Phone:+91 7019855494</p>
+                    <p>Email:groomcity02@gmail.com</p>
                   </li>
                 </ul>
               </div>
