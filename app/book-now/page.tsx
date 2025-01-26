@@ -58,7 +58,7 @@ export default function BookNowPage() {
   }
 
   return (
-    <div className="bg-slate-400 py-32">
+    <div className="bg-white py-32">
       <div className="max-w-2xl mx-auto bg-blue-800 dark:bg-gray-800 py-10 shadow-md rounded-lg overflow-hidden">
         <div className="p-6 bg-background/5 border-b">
           <h2 className="text-2xl font-bold text-white py-2 dark:text-white">Book Now</h2>
