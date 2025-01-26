@@ -1,9 +1,9 @@
-import { NextRequest, NextResponse } from "next/server";
-import nodemailer from "nodemailer";
+import { type NextRequest, NextResponse } from "next/server"
+import nodemailer from "nodemailer"
 
 export async function POST(req: NextRequest) {
   try {
-    const body = await req.json();
+    const body = await req.json()
     const {
       petName,
       petBreed,
@@ -18,16 +18,16 @@ export async function POST(req: NextRequest) {
       comment,
       bookingDate,
       bookingSlot,
-    } = body;
+    } = body
 
     // Configure Nodemailer transport
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "chvamshi03@gmail.com", // Your email address
-        pass: 'xnst umyx racl ufwz', // Your email password or app password
+        user: "chvamshi03@gmail.com",
+        pass:"xnst umyx racl ufwz",
       },
-    });
+    })
 
     // Email content
     const mailOptions = {
@@ -37,7 +37,7 @@ export async function POST(req: NextRequest) {
       text: `A new booking has been received:
       - Pet Name: ${petName}
       - Breed: ${petBreed}
-      - Sex: ${gender}
+      - Gender: ${gender}
       - Age: ${age}
       - Blood Group: ${bloodGroup}
       - Parent Name: ${petParentName}
@@ -48,14 +48,15 @@ export async function POST(req: NextRequest) {
       - Comment: ${comment}
       - Booking Date: ${bookingDate}
       - Slot: ${bookingSlot}`,
-    };
+    }
 
     // Send email
-    await transporter.sendMail(mailOptions);
+    await transporter.sendMail(mailOptions)
 
-    return NextResponse.json({ message: "Booking submitted successfully and email sent!" }, { status: 200 });
+    return NextResponse.json({ message: "Booking submitted successfully and email sent!" }, { status: 200 })
   } catch (error) {
-    console.error("Error:", error);
-    return NextResponse.json({ message: "Failed to submit booking or send email." }, { status: 500 });
+    console.error("Error:", error)
+    return NextResponse.json({ message: "Failed to submit booking or send email." }, { status: 500 })
   }
 }
+
