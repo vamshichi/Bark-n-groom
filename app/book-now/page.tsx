@@ -38,16 +38,16 @@ export default function BookNowPage() {
 
   return (
     <div className="container mx-auto py-10 px-4">
-      <div className="max-w-2xl mx-auto bg-white shadow-md rounded-lg overflow-hidden">
-        <div className="p-6 bg-gray-50 border-b">
-          <h2 className="text-2xl font-bold text-gray-800">Book Now</h2>
-          <p className="mt-1 text-gray-600">Fill out the form below to book an appointment for your pet.</p>
+      <div className="max-w-2xl mx-auto bg-background shadow-md rounded-lg overflow-hidden">
+        <div className="p-6 bg-background/5 border-b">
+          <h2 className="text-2xl font-bold text-foreground">Book Now</h2>
+          <p className="mt-1 text-foreground/70">Fill out the form below to book an appointment for your pet.</p>
         </div>
         <div className="p-6">
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label htmlFor="petName" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="petName" className="block text-sm font-medium text-foreground/90">
                   Pet Name
                 </label>
                 <input
@@ -58,7 +58,7 @@ export default function BookNowPage() {
                 {errors.petName && <p className="mt-1 text-sm text-red-600">{errors.petName.message}</p>}
               </div>
               <div>
-                <label htmlFor="petBreed" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="petBreed" className="block text-sm font-medium text-foreground/90">
                   Pet Breed
                 </label>
                 <input
@@ -72,7 +72,7 @@ export default function BookNowPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label htmlFor="gender" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="gender" className="block text-sm font-medium text-foreground/90">
                   Select Gender
                 </label>
                 <select
@@ -87,7 +87,7 @@ export default function BookNowPage() {
                 {errors.gender && <p className="mt-1 text-sm text-red-600">{errors.gender.message}</p>}
               </div>
               <div>
-                <label htmlFor="age" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="age" className="block text-sm font-medium text-foreground/90">
                   Age
                 </label>
                 <input
@@ -100,7 +100,7 @@ export default function BookNowPage() {
             </div>
 
             <div>
-              <label htmlFor="bloodGroup" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="bloodGroup" className="block text-sm font-medium text-foreground/90">
                 Blood Group
               </label>
               <input
@@ -111,7 +111,7 @@ export default function BookNowPage() {
             </div>
 
             <div>
-              <label htmlFor="parentName" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="parentName" className="block text-sm font-medium text-foreground/90">
                 Parent Name
               </label>
               <input
@@ -123,7 +123,7 @@ export default function BookNowPage() {
             </div>
 
             <div>
-              <label htmlFor="address" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="address" className="block text-sm font-medium text-foreground/90">
                 Address
               </label>
               <textarea
@@ -137,7 +137,7 @@ export default function BookNowPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label htmlFor="pincode" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="pincode" className="block text-sm font-medium text-foreground/90">
                   Pincode
                 </label>
                 <input
@@ -148,7 +148,7 @@ export default function BookNowPage() {
                 {errors.pincode && <p className="mt-1 text-sm text-red-600">{errors.pincode.message}</p>}
               </div>
               <div>
-                <label htmlFor="mobileNo" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="mobileNo" className="block text-sm font-medium text-foreground/90">
                   Mobile No
                 </label>
                 <input
@@ -161,7 +161,7 @@ export default function BookNowPage() {
             </div>
 
             <div>
-              <label htmlFor="emailId" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="emailId" className="block text-sm font-medium text-foreground/90">
                 Email ID
               </label>
               <input
@@ -174,7 +174,7 @@ export default function BookNowPage() {
             </div>
 
             <div>
-              <label htmlFor="comment" className="block text-sm font-medium text-gray-700">
+              <label htmlFor="comment" className="block text-sm font-medium text-foreground/90">
                 Comment
               </label>
               <textarea
@@ -187,7 +187,7 @@ export default function BookNowPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
-                <label htmlFor="appointmentDate" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="appointmentDate" className="block text-sm font-medium text-foreground/90">
                   Appointment Date
                 </label>
                 <Controller
@@ -209,7 +209,7 @@ export default function BookNowPage() {
                 )}
               </div>
               <div>
-                <label htmlFor="appointmentSlot" className="block text-sm font-medium text-gray-700">
+                <label htmlFor="appointmentSlot" className="block text-sm font-medium text-foreground/90">
                   Select a Slot
                 </label>
                 <select
