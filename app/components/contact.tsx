@@ -80,7 +80,7 @@ export function Contact() {
                 <dt className="sr-only">Email</dt>
                 <dd className="flex items-center">
                   <Mail className="h-6 w-6 text-blue-600 mr-2" />
-                  <span className="text-gray-900">info@groomcity.in</span>
+                  <span className="text-gray-900">groomcity02@gmail.com</span>
                 </dd>
               </div>
               <div className="flex">
