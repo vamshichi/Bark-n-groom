@@ -36,7 +36,7 @@ export function Hero() {
   }, [])
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-blue-100 to-purple-100">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-blue-950 to-blue-500">
       <div className="absolute inset-0 overflow-hidden">
         <AnimatePresence initial={false}>
           <motion.div
@@ -56,7 +56,7 @@ export function Hero() {
             />
           </motion.div>
         </AnimatePresence>
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-400 to-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-950 to-blue-600 opacity-60" />
       </div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between">
